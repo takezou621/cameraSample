@@ -14,14 +14,15 @@
 		D2884B5F198BD60500B25288 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2884B5E198BD60500B25288 /* main.m */; };
 		D2884B63198BD60500B25288 /* UXFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2884B62198BD60500B25288 /* UXFAppDelegate.m */; };
 		D2884B66198BD60500B25288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2884B64198BD60500B25288 /* Main.storyboard */; };
-		D2884B69198BD60500B25288 /* UXFMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2884B68198BD60500B25288 /* UXFMainViewController.m */; };
-		D2884B6C198BD60500B25288 /* UXFFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2884B6B198BD60500B25288 /* UXFFlipsideViewController.m */; };
 		D2884B6E198BD60500B25288 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2884B6D198BD60500B25288 /* Images.xcassets */; };
 		D2884B75198BD60500B25288 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2884B74198BD60500B25288 /* XCTest.framework */; };
 		D2884B76198BD60500B25288 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2884B52198BD60500B25288 /* Foundation.framework */; };
 		D2884B77198BD60500B25288 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2884B56198BD60500B25288 /* UIKit.framework */; };
 		D2884B7F198BD60500B25288 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2884B7D198BD60500B25288 /* InfoPlist.strings */; };
 		D2884B81198BD60500B25288 /* CameraSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2884B80198BD60500B25288 /* CameraSampleTests.m */; };
+		D2884B8C198BD9AF00B25288 /* UXFSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2884B8B198BD9AF00B25288 /* UXFSettingViewController.m */; };
+		D2884B90198BD9EF00B25288 /* UXFCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2884B8F198BD9EF00B25288 /* UXFCameraViewController.m */; };
+		D2884B93198BDA2300B25288 /* UXFPrinterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2884B92198BDA2300B25288 /* UXFPrinterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,16 +47,18 @@
 		D2884B61198BD60500B25288 /* UXFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UXFAppDelegate.h; sourceTree = "<group>"; };
 		D2884B62198BD60500B25288 /* UXFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UXFAppDelegate.m; sourceTree = "<group>"; };
 		D2884B65198BD60500B25288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D2884B67198BD60500B25288 /* UXFMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UXFMainViewController.h; sourceTree = "<group>"; };
-		D2884B68198BD60500B25288 /* UXFMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UXFMainViewController.m; sourceTree = "<group>"; };
-		D2884B6A198BD60500B25288 /* UXFFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UXFFlipsideViewController.h; sourceTree = "<group>"; };
-		D2884B6B198BD60500B25288 /* UXFFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UXFFlipsideViewController.m; sourceTree = "<group>"; };
 		D2884B6D198BD60500B25288 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D2884B73198BD60500B25288 /* CameraSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2884B74198BD60500B25288 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D2884B7C198BD60500B25288 /* CameraSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CameraSampleTests-Info.plist"; sourceTree = "<group>"; };
 		D2884B7E198BD60500B25288 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D2884B80198BD60500B25288 /* CameraSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraSampleTests.m; sourceTree = "<group>"; };
+		D2884B8A198BD9AF00B25288 /* UXFSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXFSettingViewController.h; sourceTree = "<group>"; };
+		D2884B8B198BD9AF00B25288 /* UXFSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXFSettingViewController.m; sourceTree = "<group>"; };
+		D2884B8E198BD9EF00B25288 /* UXFCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXFCameraViewController.h; sourceTree = "<group>"; };
+		D2884B8F198BD9EF00B25288 /* UXFCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXFCameraViewController.m; sourceTree = "<group>"; };
+		D2884B91198BDA2300B25288 /* UXFPrinterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXFPrinterViewController.h; sourceTree = "<group>"; };
+		D2884B92198BDA2300B25288 /* UXFPrinterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXFPrinterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,13 +118,10 @@
 		D2884B58198BD60500B25288 /* CameraSample */ = {
 			isa = PBXGroup;
 			children = (
+				D2884B8D198BD9D100B25288 /* ViewController */,
 				D2884B61198BD60500B25288 /* UXFAppDelegate.h */,
 				D2884B62198BD60500B25288 /* UXFAppDelegate.m */,
 				D2884B64198BD60500B25288 /* Main.storyboard */,
-				D2884B67198BD60500B25288 /* UXFMainViewController.h */,
-				D2884B68198BD60500B25288 /* UXFMainViewController.m */,
-				D2884B6A198BD60500B25288 /* UXFFlipsideViewController.h */,
-				D2884B6B198BD60500B25288 /* UXFFlipsideViewController.m */,
 				D2884B6D198BD60500B25288 /* Images.xcassets */,
 				D2884B59198BD60500B25288 /* Supporting Files */,
 			);
@@ -155,6 +155,19 @@
 				D2884B7D198BD60500B25288 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2884B8D198BD9D100B25288 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D2884B8A198BD9AF00B25288 /* UXFSettingViewController.h */,
+				D2884B8B198BD9AF00B25288 /* UXFSettingViewController.m */,
+				D2884B8E198BD9EF00B25288 /* UXFCameraViewController.h */,
+				D2884B8F198BD9EF00B25288 /* UXFCameraViewController.m */,
+				D2884B91198BDA2300B25288 /* UXFPrinterViewController.h */,
+				D2884B92198BDA2300B25288 /* UXFPrinterViewController.m */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,9 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2884B6C198BD60500B25288 /* UXFFlipsideViewController.m in Sources */,
+				D2884B90198BD9EF00B25288 /* UXFCameraViewController.m in Sources */,
 				D2884B63198BD60500B25288 /* UXFAppDelegate.m in Sources */,
-				D2884B69198BD60500B25288 /* UXFMainViewController.m in Sources */,
+				D2884B8C198BD9AF00B25288 /* UXFSettingViewController.m in Sources */,
+				D2884B93198BDA2300B25288 /* UXFPrinterViewController.m in Sources */,
 				D2884B5F198BD60500B25288 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
